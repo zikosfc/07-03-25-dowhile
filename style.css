@@ -1,0 +1,14 @@
+    div{
+        display: inline-flex;
+    }
+    
+
+    #span_hora {
+        color: blueviolet;
+    }
+    #span_minutes {
+        color: pink;
+    }
+    #span_seconds {
+        color: red;
+    }

@@ -1,0 +1,31 @@
+<!-- linha abaixo define o documento para html -->
+<!DOCTYPE html>
+<!-- linha abaixo inicia a tag html e define o idioma -->
+<html lang="en">
+<!-- linha abaixo define o cabeçalho -->
+<head>
+    <!-- linha abaixo define o tipo do caracter da pagina, definindo para o padrao internacional -->
+    <meta charset="UTF-8">
+   <!-- tag meta e seus atributos (name tipo de vizualiação das telas) (content valor do tipo de visualização) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titulo da pagina/"site" -->
+    <title>Santos Futebol Clube </title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <label for="cbxMarcarTempo">Marcar tempo?</label>
+    <!-- a linha abaixo cria o checkbox que vai servir para exibir ou não o tempo na página -->
+   
+ <input type="checkbox" id="cbxMarcarTempo"/>
+<!-- insere uma quebra de linha -->
+ <br/> 
+<!-- a linha abaixo insere um elemento para inserirmos a hora, sem prejudicar o resto da pagina -->
+ <div id="span_hora"></div>
+ <div id="span_minutes"></div>
+ <div id="span_seconds"></div>
+ <!-- faz o arquivo java funcionar -->
+ <script src= "./dowhile.js"></script>
+<!-- encerramento da tag body -->
+</body>
+</html>
